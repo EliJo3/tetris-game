@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e4b605d8-3ec8-428e-ae48-b6187e209b82/d2iuoi6-911898aa-c47b-4857-a14e-9c0e4183ccb4.png/v1/fill/w_1131,h_707,q_70,strp/tetris_wallpaper_by_perfectzed_d2iuoi6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvZTRiNjA1ZDgtM2VjOC00MjhlLWFlNDgtYjYxODdlMjA5YjgyXC9kMml1b2k2LTkxMTg5OGFhLWM0N2ItNDg1Ny1hMTRlLTljMGU0MTgzY2NiNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ehmYnvNPj_V7jDLyZ4-4K4I4WBQ9yyBLWRpoVFP6wk0);
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title-container{
+    color: yellow;
+
+}
+
+.title-container span{
+    color: red;
+}
+
+canvas {
+    border: solid .2em white;
+    height: 70vh;
+}
+
+.instructions {
+    font-size: 40%;
+    position: absolute;
+    margin-left: 200px;
+      
+}
+
+.instructions h3{
+    color: lightseagreen;
+}
